@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMFYUI=/workspace/runpod-slim/ComfyUI
+COMFYUI=/workspace/ComfyUI
 
 echo "=== Downloading Z-Image Turbo models ===" 
 wget -q --show-progress -O $COMFYUI/models/diffusion_models/z_image_turbo_bf16.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors
